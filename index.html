@@ -1,99 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тренажерний зал Гермес</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем внешний CSS файл -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Header Section -->
     <header>
-        <nav>
-            <!-- Logo -->
-            <a href="./index.html">WebStudio</a>
-            <!-- Menu -->
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-
-        <!-- Contacts -->
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+        <h1>Тренажерний зал Гермес</h1>
+        <p>Ваша енергія та здоров'я, наша місія!</p>
     </header>
 
-    <!-- Main Section -->
-    <main>
-        <!-- First Section -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
-        </section>
+    <nav>
+        <ul>
+            <li><a href="#about">Про клуб</a></li>
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#contact">Контакти</a></li>
+            <li><a href="#price">Ціни</a></li>
+        </ul>
+    </nav>
 
-        <!-- Second Section -->
-        <section>
-            <h2>Our Features</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
+    <div class="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery-item">
+            <img src="images/11.jpg" alt="Тренажерний зал">
+            <p>Тренажерний зал</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/11.jpg" alt="Тренування">
+            <p>Персональні тренування</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/11.jpg" alt="Бокс">
+            <p>Студія боксу </p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/11.jpg" alt="Армрестлінг">
+            <p>Армрестлінг</p>
+        </div>
+    </div>
 
-        <!-- Third Section -->
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./images/imgmarc.jpg" alt="Mark Guerrero" width="264">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/imgtom.jpg" alt="Tom Ford" width="264">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/imgcamila.jpg" alt="Camila Garcia" width="264">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/imgdaniel.jpg" alt="Daniel Wilson" width="264">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
 
-    <!-- Footer Section -->
+    <div class="section about" id="about">
+        <h2>Про клуб</h2>
+        <img src="images/pexels-sabel-blanco-662810-1480520.jpg" alt="Клуб Гермес">
+        <p>Клуб «Гермес» - це сучасний спортивний центр, який пропонує широкий спектр послуг для людей, які хочуть бути у відмінній фізичній формі. Ми раді запропонувати вам тренування з різних напрямків: фітнес, йога, армрестлінг та бокс!</p>
+    </div>
+
+    <div class="section services" id="services">
+        <h2>Наші Послуги</h2>
+        <video width="100%" controls>
+            <source src="video/video_zal.mp4" type="video/mp4">
+        </video>
+        <img src="https://via.placeholder.com/1200x400/FF4C4C/FFFFFF?text=Услуги" alt="Услуги клуба">
+        <ul>
+            <li>Фітнес-зал із сучасним обладнанням</li>
+            <li>Персональні тренування</li>
+            <li>Студія боксу</li>
+            <li>Армрестлінг</li>
+        </ul>
+    </div>
+
+    <div class="section contact" id="contact">
+        <h2>Контакти</h2>
+        <p>Ми завжди раді вашому візиту! Ви можете знайти нас за адресою нижче або скористатися мапою для зручності.</p>
+        
+        <!-- Адрес клуба -->
+        <div class="address">
+            <h4>Наша адреса:</h4>
+            <p>м.Київ, вулиця Кубанської України 26, 3 поверх.</p>
+        </div>
+        
+        <!-- Вставка карты Google -->
+        <div class="map">
+            <h4>Як дістатися:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2538.6024567573786!2d30.632203!3d50.4857442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d06ebf779f4f%3A0xdff21849f78b1e46!2z0KLRgNC10L3QsNC20LXRgNGL0Lkg0JfQsNC7LNCX0LDQuyDQlNC70Y8g0JfQsNC90Y_RgtC40Lkg0JnQvtCz0L7QuSzQt9Cw0Lsg0JHQvtC60YHQsCAi0JPQtdGA0LzQtdGBIg!5e0!3m2!1sru!2sua!4v1737479936391!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+   
+    
+    <div class="section price" id="price">
+        <h3>Ціни</h3>
+    
+        <h4>Ми пропонуємо два види абонементів, які підійдуть для різних потреб:</h4>
+        <div class="price-info">
+            <p><strong>Персональне тренування 300 грн/одноразове відвідування 100 грн</strong></p>
+        </div>
+        <div class="price-plan">
+            <div class="plan-item">
+                <h4>Звичайний абонемент</h4>
+                <p>3 тренування на тиждень</p>
+                <p><strong>Ціна: 700 грн/міс</strong></p>
+                <p>Цей абонемент підходить для тих, хто хоче займатися на регулярній основі, але не планує відвідувати тренажерний зал щодня.</p>
+            </div>
+            <div class="plan-item">
+                <h4>Безлімітний абонемент</h4>
+                <p>Необмежена кількість тренувань</p>
+                <p><strong>Ціна: 850 грн/міс</strong></p>
+                <p>Підходить для тих, хто хоче займатися без обмежень щодо кількості тренувань.</p>
+            </div>
+        </div>
+        <p>Для отримання більш детальної інформації, будь ласка, зв'яжіться із нами.</p>
+        <h3>+380673858514</h3>
+    </div>
+
+ <div>   <!-- Форма для заявки -->
+    
+    <form action="mailto:chepik711@ukr.net" method="post" enctype="text/plain" class="contact-form">
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Ваша електронна пошта:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Ваше повідомлення:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <button type="submit">Відправити заявку</button>
+    </form>
+</div>
+
+    <div class="section clients" id="clients">
+        <h2>НАШІ ПОСТІЙНІ КЛІЄНТИ</h2>
+        <div class="client-icons">
+            <div class="client-icon">
+                <img src="images/11.jpg" alt="Клиент 1">
+                <p>Віталій Васильович</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client2.jpg" alt="Клиент 2">
+                <p>Клиент 2</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client3.jpg" alt="Клиент 3">
+                <p>Клиент 3</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client4.jpg" alt="Клиент 4">
+                <p>Клиент 4</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client5.jpg" alt="Клиент 5">
+                <p>Клиент 5</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client6.jpg" alt="Клиент 6">
+                <p>Клиент 6</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client7.jpg" alt="Клиент 7">
+                <p>Клиент 7</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client8.jpg" alt="Клиент 8">
+                <p>Клиент 8</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client9.jpg" alt="Клиент 9">
+                <p>Клиент 9</p>
+            </div>
+            <div class="client-icon">
+                <img src="images/client10.jpg" alt="Клиент 10">
+                <p>Клиент 10</p>
+            </div>
+        </div>
+    </div>
+    
+
     <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <p>&copy;2025 Спортивний клуб Гермес | Усі права захищені.</p>
     </footer>
 </body>
-
 </html>
